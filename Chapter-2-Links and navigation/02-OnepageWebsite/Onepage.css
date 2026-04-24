@@ -32,6 +32,18 @@ a:hover {
     text-decoration: underline;
 }
 
+section {
+    scroll-margin: 120px;
+}
+
+.section-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #c0b496;
+    color: #e8e4d9;
+}
+
 /* Navigation styles */
 
 .navibar {
@@ -41,12 +53,6 @@ a:hover {
     top: 0;
     width: 100%;
     z-index: 1000;
-}
-
-.navi-logo {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #c0b496;
 }
 
 .navi-link {
@@ -78,7 +84,7 @@ a:hover {
 }
 
 .button:hover {
-    background-color: #5f226a;
+    background-color: #303059;
     color: #a17db3;
 }
 
@@ -88,14 +94,6 @@ a:hover {
     max-width: 800px;
     padding: 40px 20px;
     margin: 0 auto;
-}
-
-.overview-heading {
-    font-size: 2em;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #c0b496;
-    color: #e8e4d9;
 }
 
 .overview-content {
@@ -143,7 +141,7 @@ a:hover {
 }
 
 .cast-card {
-    background-color: #73677d;
+    background-color: #a17db3;
     padding: 10px;
     border-radius: 5px;
     flex: 1 1 calc(33.333% - 20px);
@@ -153,10 +151,25 @@ a:hover {
     font-weight: bold;
     color: #e8e4d9;
     text-align: center;
+    margin-bottom: 2px;
 }
 
 .cast-role {
-    color: #c6bac9;
+    color: #303059;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cast-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.cast-voice {
+    text-align: center;
 }
 
 .review-content {
@@ -166,7 +179,7 @@ a:hover {
 }
 
 .review {
-    background-color: #73677d;
+    background-color: #a17db3;
     padding: 20px;
     border-radius: 5px;
     max-width: 800px;
@@ -181,8 +194,8 @@ a:hover {
 }
 
 .review-source {
-    color: #c0b496;
-    font-size: 0.9em;
+    color: #303059;
+    font-size: 18px;
     letter-spacing: 0.05em;
 }
 
