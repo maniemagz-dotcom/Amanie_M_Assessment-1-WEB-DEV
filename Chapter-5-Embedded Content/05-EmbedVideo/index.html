@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Video</title>
+    <style>
+        @font-face {
+            font-family: 'VT323';
+            src: url(video-image-text/VT323-Regular.ttf) format('truetype');
+        }
+        footer {
+            margin: 0;
+            color: white;
+            text-align: center;
+            font-family: 'VT323';
+            font-size: 20px;
+        }
+        body {
+            background-color: black;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        video {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <video loop width="560" height="315" poster="video-image-text/poster.png" controls>
+        <source src="video-image-text/video-arduino.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <footer><p>Embedding a Video</p></footer>
+</body>
+</html>
