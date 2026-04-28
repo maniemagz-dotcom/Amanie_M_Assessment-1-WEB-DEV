@@ -7,7 +7,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Workbench&display=swap" rel="stylesheet">
         <title>The Classic Three</title> <!-- This is the title of page seen on the broswer's tab -->
+        
+        <!-- CSS styles for the whole page -->
+        
         <style>
+            /* CSS styles for body section; paragraph and link elements */
             p,a,body {
                 font-family: 'Quattrocento', serif;
                 font-size: 15px;
@@ -17,6 +21,7 @@
             body {
                 background-color: rgb(212, 191, 162);
             }
+            /* CSS styles for h1 element */
             h1 {
                 font-family: 'Quattrocento', serif;
                 font-size: 30px;
@@ -24,18 +29,21 @@
                 margin: 20px 0;
                 text-align: center;
             }
+            /* CSS styles for img element */
             img {
-                filter: grayscale(30%) brightness(1.5) contrast(1);
+                filter: grayscale(30%) brightness(1.5) contrast(1); /* This filter adds a vintage effect to the images */
                 margin: 10px;
                 border: 2px solid #ccc;
                 border-radius: 8px;
             }
+            /* CSS styles for class "pic-content" */
             .pic-content {
                 display: flex;
                 flex-wrap: wrap;
                 gap: 10px;
                 justify-content: center;
             }
+            /* CSS styles for class "pic-card" */
             .pic-card {
                 padding: 5px;
                 border-radius: 5px;
@@ -47,7 +55,7 @@
         <h1>The Classic Three</h1>
         <div class="pic-content">
             <div class="pic-card">
-                <img src="images-3/classic-porsche.jpg" alt="Classic Porsche" width="400" height="auto" title="Photo by George Blatchford"> <!-- This is an image tag for displaying the first image -->
+                <img src="images-3/classic-porsche.jpg" alt="Classic Porsche" width="400" height="auto" title="Photo by George Blatchford"> <!-- This is an image tag for displaying the first image with title, alt attributes -->
                 <p>Classic Porsche<br> Photo by 
                     <a href="https://www.pexels.com/@george-blatchford-2159158855/" target="_blank">George Blatchford</a>
                     <a href="https://www.pexels.com/photo/classic-red-sports-car-parked-outdoors-in-sunshine-35849577/" target="_blank">| Pexels License (Free to Use)</a>
@@ -55,7 +63,7 @@
             </div>
 
             <div class="pic-card">
-                <img src="images-3/classic-mini-cooper.jpg" alt="Classic Mini Cooper" width="400" height="auto" title="Photo by Diana"> <!-- This is an image tag for displaying the second image -->
+                <img src="images-3/classic-mini-cooper.jpg" alt="Classic Mini Cooper" width="400" height="auto" title="Photo by Diana"> <!-- This is an image tag for displaying the second image with title, alt attributes -->
                 <p>Classic Mini Cooper<br> Photo by 
                     <a href="https://www.pexels.com/@didsss/" target="_blank">Diana</a>
                     <a href="https://www.pexels.com/photo/retro-car-racing-in-city-5660828/" target="_blank">| Pexels License (Free to Use)</a>
@@ -63,7 +71,7 @@
             </div>
 
             <div class="pic-card">
-                <img src="images-3/classic-ford-mustang.jpg" alt="Classic Ford Mustang" width="400" height="auto" title="Photo by Garret Shields"> <!-- This is an image tag for displaying the third image -->
+                <img src="images-3/classic-ford-mustang.jpg" alt="Classic Ford Mustang" width="400" height="auto" title="Photo by Garret Shields"> <!-- This is an image tag for displaying the third image with title, alt attributes -->
                 <p>Classic Ford Mustang<br> Photo by 
                     <a href="https://www.pexels.com/@garret-shields-1929773013/" target="_blank">Garret Shields</a> 
                     <a href="https://www.pexels.com/photo/vintage-ford-mustang-racecar-display-in-tulsa-29067154/" target="_blank">| Pexels License (Free to Use)</a>

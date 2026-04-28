@@ -1,9 +1,11 @@
+/* CSS styles for the whole page */
 * {
     margin: 0px;
     padding: 5px;
     box-sizing: border-box;
 }
 
+/* CSS styles for the header */
 header {
     font-family: tahoma;
     font-weight: 700;
@@ -12,11 +14,13 @@ header {
     color: #fff;
 }
 
+/* CSS styles for the header list items */
 header li {
     font-family: 'Arial';
     font-weight: 100;
 }
 
+/* CSS styles for the class name "navi-bar" */
 .navi-bar {
     justify-content: center;
     list-style: none;
@@ -24,39 +28,54 @@ header li {
     gap: 10px;
 }
 
+/* CSS styles for the body content */
 body {
     font-family: 'Arial';
     font-weight: 400;
-    min-height: max-content;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
+/* CSS style to fill up the screen */
+main {
+    flex: 1;
+}
+
+/* CSS styles for the h1 and h2 elements */
 h1, h2 {
     text-decoration: underline;
     font-family: tahoma;
 }
 
+/* CSS styles for the div element */
 div {
     display: flex;
     gap: 15px;
+    align-items: flex-start;
 }
 
+/* CSS styles for the article image */
 article img {
     width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 5px;
+    flex: 2;
 }
 
+/* CSS styles for the aside content */
 aside {
     float: right;
     background-color: #172d67;
     color: #fff;
-    padding: 15px;
+    padding: 10px;
+    margin-left: auto;
+    min-width: 200px;
 }
 
+/* CSS styles for the class "side-images" */
 .side-images {
-    width: auto;
-    height: 50%;
     border-radius: 5px;
     object-fit: cover;
     display: flex;
@@ -64,10 +83,10 @@ aside {
     gap: 10px;
 }
 
+/* CSS styles for the footer element */
 footer {
     text-align: center;
     background-color: #8c15e9;
     color: #fff;
     margin-top: 0px;
 }
-

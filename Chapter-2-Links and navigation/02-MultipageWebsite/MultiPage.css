@@ -13,9 +13,16 @@ body {
     background-color: #303059;
     color: #c0b496;
     padding-top: 120px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-/* CSS styles for the heading section */
+main {
+    flex: 1;
+}
+
+/* CSS styles for the h1, h2, h3 elements */
 h1, h2, h3 {
     line-height: 1.5;
     margin-bottom: 20px;
@@ -33,6 +40,7 @@ a {
     text-decoration: none;
 }
 
+/* For the hover state of the links */
 a:hover {
     text-decoration: underline;
 }

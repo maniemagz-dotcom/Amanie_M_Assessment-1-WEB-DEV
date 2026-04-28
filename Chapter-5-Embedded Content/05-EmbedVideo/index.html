@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!-- This specifies the character encoding for the document -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embed Video</title>
+    <title>Embed Video</title> 
+
+    <!-- CSS styles for the whole page -->
+
     <style>
+        /* CSS styles for the VT323 font via @font-face, footer, video element and body section*/
         @font-face {
             font-family: 'VT323';
             src: url(video-image-text/VT323-Regular.ttf) format('truetype');
@@ -30,10 +34,10 @@
     </style>
 </head>
 <body>
-    <video loop width="560" height="315" poster="video-image-text/poster.png" controls>
+    <video loop width="560" height="315" poster="video-image-text/poster.png" controls> <!-- Video with thumbnail (poster attribute) that loops -->
         <source src="video-image-text/video-arduino.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <footer><p>Embedding a Video</p></footer>
+    <footer><p>Embedding a Video</p></footer> <!-- Footer for the page -->
 </body>
 </html>
