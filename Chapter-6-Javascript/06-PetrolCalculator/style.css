@@ -1,0 +1,49 @@
+@font-face {
+            font-family: 'VT323';
+            src: url(font/VT323-Regular.ttf) format('truetype');
+        }
+body {
+    font-family: 'VT323';
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+/* Styling for the input fields */
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'VT323';
+}
+
+/* Adding green outline to the input field when it is focused */
+input:focus {
+    outline: 3px solid #235c23;
+}
+
+/* Styling for the calculate button (both hover and normal state) */
+button {
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #00ff00;
+    border: none;
+    cursor: pointer;
+    font-family: 'VT323';
+}
+
+button:hover {
+    background-color: #00cc00;
+}
+
+/* Styling for the total cost display to contrast the black background */
+#total {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffff;
+    margin-top: 20px;
+}

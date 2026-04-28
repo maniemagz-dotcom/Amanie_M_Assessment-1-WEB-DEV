@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <form>
-        <label for="cost">Cost per litre:</label>
-        <input type="number" id="cost" value="1.72">
+    <h2>Welcome to Petrol Calculator!</h2>
+    <!-- Input field for Cost per litre-->
+    <label for="cost">Cost per litre ($):</label>
+    <input type="number" id="cost" value="1.72">
 
-        <label for="number">Number of litres:</label>
-        <input type="number" id="number" value="0">
-    </form>
+    <!-- Input field for Number of litres-->
+    <label for="number">Number of litres:</label>
+    <input type="number" id="number" value="0">
+    
+    <!-- Button for Total cost-->
     <button onclick="calculate()">Calculate</button>
-    <p> id="total">Total cost: </p>
+    <p id="total">Total cost: $0.00</p>
 
-    <scrit src="script.js"></script>
+    <!-- Connecting JavaScript file for calculation -->
+    <script src="script.js"></script>
 </body>
 </html>
