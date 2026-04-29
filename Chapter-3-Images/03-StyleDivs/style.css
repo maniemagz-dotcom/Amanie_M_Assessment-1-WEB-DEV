@@ -23,8 +23,7 @@ div {
     border: 4px solid orange;
     border-radius: 10px;
     outline: 10px solid blue;
-    box-shadow: 0px 0px 0px 20px red;
-    box-shadow: 0px 0px 0px 30px green;
+    box-shadow: 0px 0px 0px 20px red, 0px 0px 0px 30px green;
 }
 
 .divD{

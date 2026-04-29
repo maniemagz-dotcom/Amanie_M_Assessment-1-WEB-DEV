@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    font-family: Georgia, serif;
+    background-color: #0f0f0f;
+    color: #e8e8e8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/*  Heading */
+h1 {
+    font-size: 32px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/*  RGB value display  */
+#RGB-display {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    border: 2px solid #333;
+    padding: 12px 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Stats row (lives + score) */
+#stat {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #aaaaaa;
+}
+
+/* Feedback message */
+#message {
+    font-size: 18px;
+    min-height: 28px;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+/* Correct message colour */
+#message.correct {
+    color: #4caf50;
+}
+
+/* Wrong message colour */
+#message.wrong {
+    color: #e53935;
+}
+
+/* Game over message */
+#message.gameover {
+    color: #ffa726;
+    font-size: 22px;
+}
+
+/* Colour option */
+#box {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+/* Each clickable colour box */
+.option {
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 3px solid #333;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+/* hover effect on colour boxes */
+.option:hover {
+    transform: scale(1.06);
+    border-color: #ffffff;
+}
+
+/*  Replay button  */
+#replay {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #0f0f0f;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Hover effect on replay button */
+#replay:hover {
+    background-color: #cccccc;
+}

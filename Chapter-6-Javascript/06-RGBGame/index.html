@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RGB Colour Guess Game</title>
-    <link rel="stylesheet" type="'text/css" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <h1> Welcome to RGB Colour Guess!</h1>
-    <div id="menu">
-        <button id="replay">Replay</button>
-        <span id="message"></span>
+
+    <!-- RGB display-->
+    <p id="RGB-display"> RGB(255,255,255)</p>
+
+    <!-- Status of the game-->
+    <div id="stat">
+        <span id="hearts"> Lives left: 3</span>
+        <span id="score">Score: 0</span>
     </div>
+
+    <!-- Feedback message-->
+    <p id="message"></p>
+
+    <!-- Options -->
     <div id="box">
         <div class="option"></div>
         <div class="option"></div>
         <div class="option"></div>
     </div>
 
+    <!-- Replay button to play again-->
+    <button id="replay">Replay</button>
+
+    <!-- Connecting the js file-->
     <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
