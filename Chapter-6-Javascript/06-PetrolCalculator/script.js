@@ -8,5 +8,5 @@ function calculate() {
     var total = costPerLit * litres;
     
     // Displaying of result in <p> element
-    document.getElementById("total").textContent = "Total cost: $";
+    document.getElementById("total").textContent = "Total cost: $" + total;
 }

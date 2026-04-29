@@ -49,7 +49,7 @@ h1, h2 {
 }
 
 /* CSS styles for the div element */
-div {
+.main-cont {
     display: flex;
     gap: 15px;
     align-items: flex-start;
@@ -70,17 +70,24 @@ aside {
     background-color: #172d67;
     color: #fff;
     padding: 10px;
-    margin-left: auto;
+    margin-left: 10px;
     min-width: 200px;
 }
 
 /* CSS styles for the class "side-images" */
 .side-images {
-    border-radius: 5px;
-    object-fit: cover;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
+    padding: 0px; /* remove the 30px padding */
+}
+
+/* CSS styles for img tag under class "side-images */
+.side-images img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
 /* CSS styles for the footer element */
